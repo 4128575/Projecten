@@ -1,5 +1,6 @@
 import timeit
 start_time = timeit.default_timer()
+
 limiet = int(input('Bovenlimiet? '))
 lijst = [1] * limiet
 lijst2 = []
@@ -9,5 +10,6 @@ for i in range(2, int((limiet+1)/2)+1):
 for j in range(2, limiet):
     if lijst[j-1] == 1:
         lijst2.append(j)
+        
 print(timeit.default_timer() - start_time)
 #print(lijst2)
