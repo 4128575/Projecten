@@ -1,8 +1,10 @@
 import timeit
+
+limiet = int(input('Bovenlimiet? '))
+
 start_time = timeit.default_timer()
 
 listprime2 = []
-limiet = int(input('Bovenlimiet? '))
 for i in range (1,limiet):
     x = i + 1
     for j in range(2, x):

@@ -1,7 +1,9 @@
 import timeit
-start_time = timeit.default_timer()
 
 limiet = int(input('Bovenlimiet? '))
+
+start_time = timeit.default_timer()
+
 lijst = [1] * limiet
 lijst2 = []
 for i in range(2, int((limiet+1)/2)+1):
