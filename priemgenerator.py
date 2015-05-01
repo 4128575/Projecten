@@ -14,5 +14,4 @@ for j in range(2, limiet):
         lijst2.append(j)
         
 print(timeit.default_timer() - start_time)
-print('Test')
 #print(lijst2)
