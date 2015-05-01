@@ -15,4 +15,3 @@ for j in range(2, limiet):
         
 print(timeit.default_timer() - start_time)
 #print(lijst2)
-print('Hoi mama!')
