@@ -7,7 +7,7 @@ int main(){
     int leeftijd;
     cin >> leeftijd;
     if(leeftijd==20){
-        cout << "Je bent " << leeftijd << endl;
+        cout << "Je bent " << leeftijd << end;l
     } else {
         cout << "Je bent niet 20." << endl;
     }
