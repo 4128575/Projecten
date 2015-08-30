@@ -28,7 +28,3 @@ int main(){
     cout << sum << endl;
     return 0;
 }
-/*
-    int templist[limiet] = {};
-    int primelist[limiet/4] = {};
-*/
